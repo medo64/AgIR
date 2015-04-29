@@ -1,5 +1,4 @@
-AgIR
-====
+### AgIR ###
 
 Those with Agilent USB to IR (U1173A) cable know that it uses obsoleted
 PL-2303HXA chip. In practice this means a lot if you have Windows 8 because
@@ -10,40 +9,36 @@ This board is a direct replacement for the one found in the U1173A. It has
 FT232RL IC to allow support for anything an everything. Whether it is Windows
 98, Windows 8, MaxOS, or Linux this chip is perfectly supported.
 
-![AgIR, revision C](https://www.jmedved.com/content/agir_revc_device.jpg)
+![AgIR, revision C](Wiki/Picture.jpg)
 
 PS: Yes, this design is useless if you don't have original Agilent's cable
 since it fits only in existing Agilent U1173A case.
 
 
-Usage
------
+#### Usage ####
 
 Open the Agilent U1173A case (a bit of force is ok) and unplug the USB cable.
 In the place of existing board place AgIR and connect USB cable to it. Snap the
-case shut.
+case shut ([YouTube video](https://www.youtube.com/watch?v=kiC8dzj7aTg)).
 
 Software will recognize cable in same manner as if it is Agilent's own.
 
 
-Schematics
-----------
+#### Schematics ####
 
-![AgIR, revision C schematics](https://www.jmedved.com/content/agir_revc_schema.png)
+![AgIR, revision C schematics](Wiki/Schema.png)
 
 
-Manufacturing
--------------
+#### Manufacturing ####
 
-If you want to make this board your self, just [download](https://bitbucket.org/jmedved/agir/downloads)
-latest release and send it over to [OSH Park](http://oshpark.com/) (or any
-other PCB manufacturer of your choice).
+If you want to make this board your self, just download latest release and send
+it over to [OSH Park](http://oshpark.com/) (or any other PCB manufacturer of
+your choice).
 
 Inside the archive you will also find parts list.
 
 
-Troubleshooting
----------------
+#### Troubleshooting ####
 
 My first suggestion would be to (temporarily) connect two resistor pads closest
 to the FTDI chip (essentially connecting RX and TX together). Then use some
@@ -62,17 +57,6 @@ information response from your multimeter or `*E` if you missed a char or two.
 Terminal settings for serial port are 9800,N,8,1.
 
 
-License
--------
-
-This whole project is under [MIT license](http://www.jmedved.com/license/). In
-short, you can do whatever you want with this. You can build it, you can change
-it, and you can even sell it. Only thing you cannot do is to claim it as yours.
-
-Of course, if you like the project, you can always [donate](http://www.jmedved.com/donate/).
-
-
-Other projects
---------------
+#### Other projects ####
 
 You can check my other projects at [www.jmedved.com](http://www.jmedved.com/electronics/).
