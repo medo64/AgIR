@@ -57,6 +57,7 @@ information response from your multimeter or `*E` if you missed a char or two.
 Terminal settings for serial port are 9800,N,8,1.
 
 
-#### Other projects ####
 
-You can check my other projects at [www.jmedved.com](http://www.jmedved.com/electronics/).
+---
+
+*You can check my blog and other projects at [www.jmedved.com](http://www.jmedved.com/).*
